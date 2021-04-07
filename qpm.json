@@ -1,0 +1,23 @@
+{
+  "sharedDir": "shared",
+  "dependenciesDir": "extern",
+  "info": {
+    "name": "cURL",
+    "id": "libcurl",
+    "version": "7.76.0",
+    "url": "https://github.com/Questcord/libcurl-ndk",
+    "additionalData": {
+      "branchName": "version-7.76.0",
+      "overrideSoName": "libcurl.so",
+      "soLink": "https://github.com/Questcord/libcurl-ndk/releases/download/7.76.0/libcurl.so"
+    }
+  },
+  "dependencies": [
+    {
+      "id": "openssl-libssl",
+      "versionRange": "^1.0.0",
+      "additionalData": {}
+    }
+  ],
+  "additionalData": {}
+}
